@@ -703,7 +703,7 @@ const projects = {
       ],
     },
     {
-      name: "opPortfolio",
+      name: "myportfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
       description: "(This) A clean and full customizable portfolio template.",
       languages: [
