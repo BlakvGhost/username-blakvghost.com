@@ -598,26 +598,6 @@ const projects = {
         },
       ]
     },
-    {
-      name: "B-dating",
-      url: "https://b-dating.com",
-      description:
-        "Site de rencontre",
-      languages: [
-        {
-          name: "VueJS",
-          iconifyClass: "logos-vue",
-        },
-        {
-          name: "Laravel",
-          iconifyClass: "logos-laravel",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql",
-        },
-      ],
-    },
   ],
 };
 
