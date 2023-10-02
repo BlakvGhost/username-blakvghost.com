@@ -281,7 +281,7 @@ const degrees = {
   degrees: [
     {
       title: "Institut de Formation et de Recherche en Informatique(IFRI - UAC)",
-      subtitle: "Licence en Systèmes Embarqués & IoT",
+      subtitle: "Licence 1 en Systèmes Embarqués & IoT",
       logo_path: "logoifri.png",
       alt_name: "IFRI-UAC",
       duration: "2022 - 2023",
@@ -341,7 +341,7 @@ const experience = {
           duration: "Mars 2023 - Mai 2023",
           location: "Abomey-Calavi/Télétravail",
           description:
-            "Une entreprise qui accompagnons la transformation digitale des clients, avec des services passionnants et des projets innovants.",
+            "Une entreprise qui accompagne la transformation digitale des clients, avec des services passionnants et des projets innovants.",
           color: "#2962FF",
         },
       ],
@@ -372,7 +372,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Bénévolat",
       experiences: [
         // {
         //   title: "Google Summer of Code Mentor",
