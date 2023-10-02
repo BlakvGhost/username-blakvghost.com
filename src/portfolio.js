@@ -484,6 +484,22 @@ const projects = {
       ],
     },
     {
+      name: "Juste",
+      url: "https://github.com/BlakvGhost/Juste#readme",
+      description:
+        "Juste est le Core du Project Bravo, il assure essentiellement la compréhension des Models, Controller, et le moteur de template de base.",
+      languages: [
+        {
+          name: "PHP",
+          iconifyClass: "devicon-php",
+        },
+        {
+          name: "Composer",
+          iconifyClass: "logos-composer",
+        },
+      ],
+    },
+    {
       name: "MyPortfolio",
       url: "https://github.com/BlakvGhost/MyPortefolio",
       description: "(Ceci) Un modèle de portfolio propre et entièrement personnalisable.",
