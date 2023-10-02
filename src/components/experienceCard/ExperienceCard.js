@@ -13,11 +13,13 @@ function ExperienceCard(props) {
       }}
     >
       <div className="experience-card-logo-div">
-        <img
-          className="experience-card-logo"
-          src={require(`../../assests/images/${experience["logo_path"]}`)}
-          alt=""
-        />
+        {experience["logo_path"] && (
+          <img
+            className="experience-card-logo"
+            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            alt=""
+          />
+        )}
       </div>
       <div className="experience-card-body-div">
         <div className="experience-card-header-div">

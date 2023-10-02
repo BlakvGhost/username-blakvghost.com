@@ -127,7 +127,7 @@ function DegreeCard(props) {
                   backgroundColor: theme.accentColor,
                 }}
               >
-                Visit Website
+                Visitez le site Web
               </p>
             </a>
           </div>

@@ -29,7 +29,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span>I'm </span>
+                <span>Je suis </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
@@ -44,7 +44,7 @@ export default function Greeting(props) {
                     history.push("/contact");
                   }}
                 >
-                  Contact Me
+                  Contactez-moi
                 </button>
               </div>
             </div>

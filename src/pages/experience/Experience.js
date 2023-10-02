@@ -9,7 +9,7 @@ import ExperienceImg from "./ExperienceImg";
 
 function Experience(props) {
   const theme = props.theme;
-  console.log(props.setTheme);
+  //console.log(props.setTheme);
   return (
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />

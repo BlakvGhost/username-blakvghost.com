@@ -51,7 +51,7 @@ function Contact(props) {
               <br />
               <br />
               <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+                Télécharger mon CV
               </a>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Medium Profile
+                  Mon Profile Medium
                 </a>
               </div>
             </div>

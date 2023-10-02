@@ -20,17 +20,17 @@ function Education(props) {
             </div>
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
-                Education
+                Formation
               </h1>
               <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifications
+                Qualifications et certifications de base
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                Je participe activement à des hackathons et à d'autres activités liées à la technologie. 
+                Vous trouverez ci-dessous quelques-unes de mes principales certifications.
               </p>
             </div>
           </div>
