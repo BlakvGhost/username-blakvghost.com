@@ -614,6 +614,18 @@ const projects = {
         },
       ]
     },
+    {
+      name: "resumeio2pdf",
+      url: "https://github.com/BlakvGhost/resumeio2pdf",
+      description:
+        "Programme qui permet aux utilisateurs de télécharger leurs CV depuis resume.io au format PDF, y compris des liens",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ]
+    },
   ],
 };
 
