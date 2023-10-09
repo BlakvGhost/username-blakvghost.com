@@ -334,7 +334,7 @@ const experience = {
       title: "Travail",
       experiences: [
         {
-          title: "Développeur web Full Stack",
+          title: "Développeur web",
           company: "JMA PLUS",
           company_url: "https://jmaplus.com/",
           logo_path: "jmaplus_logo.png",
