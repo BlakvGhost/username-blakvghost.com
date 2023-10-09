@@ -4,7 +4,7 @@ This is my portfolio to illustrate all my skills
 
 ## Who I'm ?
 
-<h5 align="center">I am a full stack developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Bénin. I am a hands-on learner, hence prefer learning new technologies through development. In my free time, I explore new technologies, read tech blogs and solve problems on Data Structures and Algorithms...</h5>
+<h5 align="center">I'm a web & mobile developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Bénin 🇧🇯. I am a hands-on learner, hence prefer learning new technologies through development. In my free time, I explore new technologies, read tech blogs and solve problems on Data Structures and Algorithms...</h5>
 
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/kabirou-alassane-11293524a" target="_blank" rel="noreferrer">
@@ -26,11 +26,8 @@ This is my portfolio to illustrate all my skills
 
 <p align="center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/></p>
 
-- 🔭 I’m currently working on **Musika, a musique web streaming app**
 
 - 🌱 I’m currently learning **NodeJS, Angular**
-
-- 👨‍💻 All of my projects are available at [My Portfolio](https://kabirou-dev.vercel.app/)
 
 - 💬 Ask me about **HTML, CSS, PHP, JavaScript, VueJS, Angular, Python/Django, NodeJS**
 
