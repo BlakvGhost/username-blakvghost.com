@@ -15,7 +15,7 @@ const greeting = {
   nickname: "BlakvGhost",
   full_name: "Kabirou ALASSANE",
   subTitle:
-    "Développeur web & mobile Full Stack, passionné de Machine Learning, créateur  de contenu YouTube. Toujours entrain d'apprendre.",
+    "Développeur web & mobile, passionné de Machine Learning, créateur  de contenu YouTube. Toujours entrain d'apprendre.",
   resumeLink:
     "/kabirou-alassane-resume.pdf",
   mail: "mailto:kabirou2001@gmail.com",
@@ -34,7 +34,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Développement Full Stack",
+      title: "Développement Web & Mobile",
       fileName: "FullStackImg",
       skills: [
         "⚡ Création d'un front-end d'application Web réactif à l'aide de Vue.js et Angular",
