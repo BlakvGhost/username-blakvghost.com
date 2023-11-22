@@ -418,6 +418,22 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "PHPValidator",
+      url: "https://github.com/BlakvGhost/PHPValidator#readme",
+      description:
+        "PHPValidator is a modern PHP library for data validation in your PHP applications. It provides a flexible and extensible way to validate data using predefined rules or by creating custom validation",
+      languages: [
+        {
+          name: "PHP",
+          iconifyClass: "devicon-php",
+        },
+        {
+          name: "Composer",
+          iconifyClass: "logos-composer",
+        },
+      ],
+    },
+    {
       name: "Futura.js",
       url: "https://github.com/BlakvGhost/FuturaJS",
       description: "Une petite bibliothèque JavaScript pour créer facilement des carrousels, les animations d'apparition sur le défilement, d'écriture automatique de textes etc....",
