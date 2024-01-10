@@ -37,23 +37,16 @@ const skills = {
       title: "Développement Web & Mobile",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Création d'un front-end d'application Web réactif à l'aide de Vue.js et Angular",
+        "⚡ Création d'un front-end d'application Web réactif à l'aide de (Vue.js, Angular ou Svelte)",
         "⚡ Développer des applications mobiles avec Ionic et Kotlin",
         "⚡ Développement backend avec Laravel, Nest.js, Adonis.js et Django",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Svelte",
+          fontAwesomeClassname: "simple-icons:svelte",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
           },
         },
         {
@@ -76,20 +69,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kotlin",
           style: {
             color: "#5c79df",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
           },
         },
         {
@@ -639,6 +618,22 @@ const projects = {
         {
           name: "Python",
           iconifyClass: "logos-python",
+        },
+      ]
+    },
+    {
+      name: "Fiona",
+      url: "https://github.com/BlakvGhost/exemple-svelte-blog-app",
+      description:
+        "Simple blog website created with the aim of learning the Svelte framework combined with firebase",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Svelte",
+          iconifyClass: "logos-svelte",
         },
       ]
     },
