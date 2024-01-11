@@ -38,8 +38,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Création d'un front-end d'application Web réactif à l'aide de (Vue.js, Angular ou Svelte)",
-        "⚡ Développer des applications mobiles avec Ionic et Kotlin",
         "⚡ Développement backend avec Laravel, Nest.js, Adonis.js et Django",
+        "⚡ Développer des applications mobiles avec Ionic et Kotlin",
       ],
       softwareSkills: [
         {
@@ -47,36 +47,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:svelte",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "simple-icons:kotlin",
-          style: {
-            color: "#5c79df",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#306998",
           },
         },
         {
@@ -109,13 +79,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "AdonisJS",
           fontAwesomeClassname: "simple-icons:adonisjs",
           style: {
@@ -134,27 +97,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#439743",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#3178C6",
-          },
-        },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Ionic",
-          fontAwesomeClassname: "simple-icons:ionic",
-          style: {
-            color: "#3880FF",
           },
         },
         {
@@ -413,37 +355,6 @@ const projects = {
       ],
     },
     {
-      name: "Futura.js",
-      url: "https://github.com/BlakvGhost/FuturaJS",
-      description: "Une petite bibliothèque JavaScript pour créer facilement des carrousels, les animations d'apparition sur le défilement, d'écriture automatique de textes etc....",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "devicon-javascript",
-        },
-        {
-          name: "NPM",
-          iconifyClass: "logos-npm",
-        },
-      ],
-    },
-    {
-      name: "Bravo MVC Framework",
-      url: "https://github.com/BlakvGhost/Bravo#readme",
-      description:
-        "Un projet personnel, un mini framework MVC en PHP que j'ai développé en puisant les meilleurs points de Laravel, Symfony et du côté Node.js.",
-      languages: [
-        {
-          name: "PHP",
-          iconifyClass: "devicon-php",
-        },
-        {
-          name: "Composer",
-          iconifyClass: "logos-composer",
-        },
-      ],
-    },
-    {
       name: "WebP2MS",
       url: "https://webp2ms.kabirou-alassane.com",
       description: "Web Platform for Managing and Monitoring Schedules est une application web de gestion des emplois du temps pour établissement d'enseignement supérieur.",
@@ -459,101 +370,6 @@ const projects = {
         {
           name: "MySQL",
           iconifyClass: "logos-mysql",
-        },
-      ],
-    },
-    {
-      name: "Bravo Mailer",
-      url: "https://github.com/BlakvGhost/bravo-mailer#readme",
-      description:
-        "Bravo-mailer est une plateforme web d'envoi de mail à l'aide d'une API fournie. L'idée m'est venue lorsque je développais mon Portfolio statique.",
-      languages: [
-        {
-          name: "PHP",
-          iconifyClass: "devicon-php",
-        },
-        {
-          name: "Composer",
-          iconifyClass: "logos-composer",
-        },
-      ],
-    },
-    {
-      name: "Juste",
-      url: "https://github.com/BlakvGhost/Juste#readme",
-      description:
-        "Juste est le Core du Project Bravo, il assure essentiellement la compréhension des Models, Controller, et le moteur de template de base.",
-      languages: [
-        {
-          name: "PHP",
-          iconifyClass: "devicon-php",
-        },
-        {
-          name: "Composer",
-          iconifyClass: "logos-composer",
-        },
-      ],
-    },
-    {
-      name: "MyPortfolio",
-      url: "https://github.com/BlakvGhost/MyPortefolio",
-      description: "(Ceci) Un modèle de portfolio propre et entièrement personnalisable.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      name: "gTube",
-      url: "https://gTube.kabirou-alassane.com",
-      description:
-        "Une petite application web pour télécharger des vidéos youtube dans divers formats qui fonctionne un peu comme le fameux savefrom.net",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-django",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      name: "gGallery",
-      url: " ",
-      description:
-        "Petite application web écrite en PHP fonctionnant comme une galerie web, permettant de stocker des images, des vidéos, des documents...",
-      languages: [
-        {
-          name: "PHP",
-          iconifyClass: "devicon-php",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql",
-        },
-      ],
-    },
-    {
-      name: "web-task-automatisation",
-      url: "https://github.com/BlakvGhost/web-task-automatisation",
-      description:
-        "Ce projet a été créé dans le but d'automatiser une tâche sur une plateforme web.",
-      languages: [
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
         },
       ],
     },
@@ -606,18 +422,6 @@ const projects = {
         {
           name: "MySQL",
           iconifyClass: "logos-mysql",
-        },
-      ]
-    },
-    {
-      name: "resumeio2pdf",
-      url: "https://github.com/BlakvGhost/resumeio2pdf",
-      description:
-        "Programme qui permet aux utilisateurs de télécharger leurs CV depuis resume.io au format PDF, y compris des liens",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
         },
       ]
     },
