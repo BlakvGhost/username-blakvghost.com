@@ -427,7 +427,7 @@ const projects = {
     },
     {
       name: "Fiona",
-      url: "https://github.com/BlakvGhost/exemple-svelte-blog-app",
+      url: "https://fiona-tau.vercel.app",
       description:
         "Simple blog website created with the aim of learning the Svelte framework combined with firebase",
       languages: [
