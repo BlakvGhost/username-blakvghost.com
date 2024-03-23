@@ -175,7 +175,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Conception de logo d'entreprise",
-        "⚡ Conception de maquette d'application web et mobile intutive",
+        "⚡ Conception de maquette d'application web et mobile intuitive",
         "⚡ Création d'affiche publicitaire",
       ],
       softwareSkills: [
@@ -254,6 +254,17 @@ const experience = {
     {
       title: "Travail",
       experiences: [
+        {
+          title: "Développeur web full stack",
+          company: "Edoutech",
+          company_url: "https://edoutech.com/",
+          logo_path: "https://edoutech.com/assets/img/logo.png",
+          duration: "Mars 2024 - Présent",
+          location: "Abomey-Calavi",
+          description:
+            "Une entreprise qui travaille avec des entreprises modernes pour les aider à innover et à évoluer grâce à des solutions de développement web et mobile personnalisées",
+          color: "#ee3c26",
+        },
         {
           title: "Développeur web",
           company: "JMA PLUS",
