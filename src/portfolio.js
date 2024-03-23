@@ -258,7 +258,6 @@ const experience = {
           title: "Développeur web full stack",
           company: "Edoutech",
           company_url: "https://edoutech.com/",
-          logo_path: "https://edoutech.com/assets/img/logo.png",
           duration: "Mars 2024 - Présent",
           location: "Abomey-Calavi",
           description:
