@@ -224,7 +224,7 @@ const degrees = {
         "⚡ J'ai également suivi divers cours en ligne sur le développement Web, le développement d'applications mobiles, etc.",
         "⚡ J'ai mis en œuvre plusieurs projets basés",
       ],
-      website_link: "https://ltn.kabirou-alassane.com",
+      website_link: "https://ltn.username-blakvghost.com",
     },
   ],
 };
@@ -366,7 +366,7 @@ const projects = {
     },
     {
       name: "WebP2MS",
-      url: "https://webp2ms.kabirou-alassane.com",
+      url: "https://webp2ms.username-blakvghost.com",
       description: "Web Platform for Managing and Monitoring Schedules est une application web de gestion des emplois du temps pour établissement d'enseignement supérieur.",
       languages: [
         {
@@ -385,7 +385,7 @@ const projects = {
     },
     {
       name: "Neptune",
-      url: "https://neptune.kabirou-alassane.com",
+      url: "https://neptune.username-blakvghost.com",
       description:
         "Neptune est une application web de gestion de stock avec système de facturation automatique et d'inventaire",
       languages: [
@@ -401,7 +401,7 @@ const projects = {
     },
     {
       name: "MoneyFly",
-      url: "https://money-fly.kabirou-alassane.com",
+      url: "https://money-fly.username-blakvghost.com",
       description:
         "Une application web de gestion bancaire en temps réel développée avec Django et Vue.js",
       languages: [
