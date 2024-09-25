@@ -1,75 +1,135 @@
-# MyPortfolio
-
-This is my portfolio to illustrate all my skills
-
-## Who I'm ?
-
-<h5 align="center">I'm a web & mobile developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Bénin 🇧🇯. I am a hands-on learner, hence prefer learning new technologies through development. In my free time, I explore new technologies, read tech blogs and solve problems on Data Structures and Algorithms...</h5>
-
-<div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/kabirou-alassane-11293524a" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://www.youtube.com/@kabirou-dev" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  </a>
-  <a href="https://www.twitter.com/g4l1l30_77" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-  <a href="https://dev.to/blakvghost" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Devto-yellow?style=for-the-badge&logo=dev.to&logoColor=white" alt="DevTo Badge"/>
-  </a>
-  <a href="https://blakvghost.medium.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/medium-blue?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/>
-  </a>
+<div align="center">
+<a href="https://username-blakvghost.com"><img src="./public/logo.png" width="60px"></a>
 </div>
 
-<p align="center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/></p>
+<div align="center">
+<h1>username-blakvghost.com</h1>
+<p>My personal portfolio website</p>
+</div>
 
+# Tech Stack
 
-- 🌱 I’m currently learning **NodeJS, Angular**
+- [NextJS][nextjs] - UI framework
+- [Vercel][vercel] - Hosting and Deployment
+- [Sanity.io][sanity]: Headless CMS and Content Lake
+- [TailwindCSS][tailwind] / CSS - Styling and UI
+- [Umami][umami]: Analytics
+- [Next Themes][nexttheme]: Color Theme
+- [React Refractor][reactrefractor]: Syntax Highlighting
 
-- 💬 Ask me about **HTML, CSS, PHP, JavaScript, VueJS, Angular, Python/Django, NodeJS**
+## Project Overview
 
-- 📫 How to reach me **kabirou2001@gmail.com**
+| [Site][site]          | [Studio][studio]                 |
+| --------------------- | -------------------------------- |
+| ![Site][site-preview] | ![Sanity Studio][studio-preview] |
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=BlakvGhost&label=Profile%20views&color=0e75b6&style=flat" alt="BlakvGhost" /> </p>
+## Run Project Locally
 
-<p align="center"><img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"  /></p>
+Follow this guide to get this site runnning locally:
 
-## <p align="center">🛠 &nbsp;Languages and Tools :</p>
+### Clone Repository
 
-<p align="center">
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
-<a href="https://www.oracle.com/uk/index.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg" width="36" height="36" alt="Oracle" /></a>
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
-<a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://www.django.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a>
-<a href="https://www.vuejs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" width="36" height="36" alt="Vuejs" /></a>
-<a href="https://www.django.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="typescript" /></a>
-<a href="https://www.angular.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="36" height="36" alt="Angular" /></a>
-<a href="https://www.nodejs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="nodejs" /></a>
-<a href="https://www.laravel.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="laravel" /></a>
-<a href="https://www.firebase.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/></a>
-<a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman"  alt="Postman" width="40" height="40"/></a>
-<a href="https://www.github.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/></a>
-</p>
+```js
+git clone https://github.com/BlakvGhost/username-blakvghost.com.git
 
-## <p align="center">🔥 &nbsp; Github Statistics</p>
+cd username-blakvghost.com
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=BlakvGhost&show_icons=true&hide=&count_private=true&title_color=10b981&text_color=ffffff&icon_color=0891b2&bg_color=134e4a&hide_border=true&show_icons=true" alt="BlakvGhost" /></p>
+npm install
+```
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=BlakvGhost&show_icons=true&locale=en&layout=compact" alt="BlakvGhost" /></p>
+- Rename [`.env.example`][env-example] to `.env.local`
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=BlakvGhost&" alt="BlakvGhost" /></p>
+### Get Env variables
 
-## <p align="center">Support me</p>
+The minimal `env` variables required to boot this project locally includes:
 
-<p align="center"><a href="https://www.buymeacoffee.com/kabiroualassane"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a></p>
+- `Project Id`
+- `Dataset`
+- `API Version`
+- `Access Token`
+
+These variables come from Sanity. To get them, you need to setup your own Sanity instance. Follow the steps below to do this:
+
+### Create a new sanity project
+
+Run the command below in a terminal to create a new Sanity project:
+
+```js
+npm create sanity@latest -- --template clean --create-project "John Doe" --dataset production
+```
+
+- **Create an account**: If you already have a Sanity account, this will automatically connect to it, if not, select a login provider from the list of options, hit `Enter` and follow the prompt to create one.
+- **Choose an Output path**: Hit the `Enter` key to select the default path.
+- Install the dependencies with your preferred package manager
+
+Once completed open up the studio directory.
+
+```js
+cd john-doe
+
+code .
+```
+
+- Navigate to the `sanity.config.ts` file in the root directory and copy the `projectId`. Now you can close the studio file.
+
+### Update Env Variables
+
+Open up the cloned repository and do the following:
+
+- Set `NEXT_PUBLIC_SANITY_PROJECT_ID` to the project id you copied earlier
+- Set `NEXT_PUBLIC_SANITY_DATASET` to `production` or the dataset name you used.
+- Set `NEXT_PUBLIC_SANITY_API_VERSION` to your current date in **YYYY-MM-DD** format or leave as is
+- If you want to use an access token, visit [sanity.io/manage][sanity-manage] > **project name** > **API** > **Token** to create one. Once generated, copy the token and set it to `NEXT_PUBLIC_SANITY_ACCESS_TOKEN`.
+
+> [!Warning]
+> If you don't want to use a token, comment it out in the [env.api.ts][env-api] file or else it will throw errors.
+
+- Now run `npm run dev` and you can visit [http://localhost:3000][localhost] to see the project live.
+
+By default the UI will be blank. To start adding data to the site, visit your studio at [http://localhost:3000/studio][localhost-studio] to create your own documents.
+
+If you expereinced any issues or enquiries, please raise an issue to discuss it.
+
+## Additional Information
+
+Need more guidiance, check out this [tutorial][sanity-guide] that provides a step-by-step guide to setting up Sanity studio for your portfolio site.
+
+## Build
+
+```bash
+npm run build
+```
+
+### Important files and folders
+
+| File(s)                                        | Description                                     |
+| ---------------------------------------------- | ----------------------------------------------- |
+| [`sanity.config.ts`](sanity.config.ts)         | Config file for Sanity Studio                   |
+| [`sanity.client.ts`](lib/sanity.client.ts)     | Config file for Sanity CLI                      |
+| [`studio`](./app/studio/[[...index]]/page.tsx) | Where Sanity Studio is mounted                  |
+| [`schemas`](./schemas)                         | Where Sanity Studio gets its content types from |
+| [`sanity.query.ts`](./lib/sanity.query.ts)     | Groq query for Sanity Schema data               |
+
+## License & Usage
+
+This portfolio is MIT-licensed so you are free to use it as an inspiration or you can just copy the whole thing (excluding my personal content of course), I don't really mind. Just make sure you link back to [userbane-blakvghost.com][site] on the footer section as attribution to the original source.
+
+<!-- Link Refs -->
+
+[nextjs]: https://nextjs.org
+[vercel]: https://vercel.com
+[sanity]: https://sanity.io
+[tailwind]: https://tailwindcss.com
+[umami]: https://umami.is
+[nexttheme]: https://github.com/pacocoursey/next-themes
+[reactrefractor]: https://github.com/rexxars/react-refractor
+[site]: https://username-blakvghost.com
+[studio]: https://username-blakvghost.com/studio
+[studio-preview]: https://github.com/BlakvGhost/username-blakvghost.com/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
+[site-preview]: https://github.com/BlakvGhost/username-blakvghost.com/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
+[env-example]: https://github.com/BlakvGhost/username-blakvghost.com/blob/main/.env.example
+[localhost]: http://localhost:3000
+[localhost-studio]: http://localhost:3000/studio
+[env-api]: https://github.com/BlakvGhost/username-blakvghost.com/blob/main/lib/env.api.ts
+[sanity-manage]: https://sanity.io/manage
+[sanity-guide]: https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-sanity-and-nextjs
