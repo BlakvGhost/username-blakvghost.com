@@ -29,7 +29,7 @@ Follow this guide to get this site runnning locally:
 
 ### Clone Repository
 
-```js
+```bash
 git clone https://github.com/BlakvGhost/username-blakvghost.com.git
 
 cd username-blakvghost.com
