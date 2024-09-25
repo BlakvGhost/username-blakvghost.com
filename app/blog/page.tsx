@@ -23,7 +23,7 @@ export default async function Blog() {
     <main className="max-w-7xl mx-auto md:px-16 px-6">
       <PageHeading
         title="Blog"
-        description="Welcome to my blog domain where I share personal stories about things I've learned, projects I'm hacking on and just general findings. I also write for other publications."
+        description="Bienvenue sur mon blog où je partage des histoires personnelles sur des choses que j'ai apprises, des projets sur lesquels je travaille et des découvertes générales. J'écris également pour d'autres publications."
       >
         <Social type="publication" />
       </PageHeading>
@@ -31,7 +31,7 @@ export default async function Blog() {
       <Slide delay={0.1}>
         <div className="flex items-center gap-x-3 mb-8">
           <BiDetail />
-          <h2 className="text-xl font-semibold tracking-tight">Explore All</h2>
+          <h2 className="text-xl font-semibold tracking-tight">Explorez tout</h2>
         </div>
         <Posts />
       </Slide>

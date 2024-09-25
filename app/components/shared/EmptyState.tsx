@@ -22,14 +22,14 @@ export default function EmptyState({ value, title, icon, message }: stateType) {
         )}
       </div>
       <h3 className="   font-bold tracking-tight text-xl mb-3">
-        {title ?? `No ${value} Found`}
+        {title ?? `Pas de ${value} Trouvé`}
       </h3>
       <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-6 ml-4 max-w-sm">
         {message ??
-          `There are no ${
+          `Il n'y a pas de ${
             value && value.toLowerCase()
-          } available at this time. Check back
-        again.`}
+          } disponible à ce moment. Revenez
+        plus tard.`}
       </p>
     </div>
   );

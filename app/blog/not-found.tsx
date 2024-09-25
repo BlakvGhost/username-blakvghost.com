@@ -9,7 +9,7 @@ export default function PostNotFound() {
   return (
     <NotFoundComponent
       title="Post Not Found"
-      description="You've managed to navigate to a post that probably does not exist or has never existed on this site. Kindly go back home or read the featured posts below."
+      description="Vous avez réussi à accéder à un article qui n'existe probablement pas ou n'a jamais existé sur ce site. Veuillez retourner à la page d'accueil ou lire les articles présentés ci-dessous."
     />
   );
 }

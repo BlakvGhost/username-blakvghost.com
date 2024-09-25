@@ -16,17 +16,16 @@ export default async function Heroes() {
       <Slide delay={0.17}>
         <h2 className="text-4xl mb-4 font-bold tracking-tight">Heroes</h2>
         <p className="dark:text-zinc-400 text-zinc-600 max-w-2xl">
-          Inspired by{" "}
+          Inspiré par la liste des héro de {" "}
           <RefLink
             href="https://rafa.design"
             className="dark:text-blue-400 text-blue-500 underline"
           >
             Rafael Condo&apos;s
           </RefLink>{" "}
-          heroes list, here&apos;s my own curated lineup of code conjurers and
-          digital dynamos that I&apos;m absolutely stoked to meet someday.{" "}
+          , voici ma propre sélection de conjurateurs de code et de dynamos numériques que je suis absolument ravi de rencontrer un jour.{" "}
           <strong className="font-semibold">
-            &quot;In no particular order&quot;
+            &quot;Sans ordre particulier&quot;
           </strong>
         </p>
       </Slide>
