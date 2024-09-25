@@ -47,4 +47,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: ${{ secrets.FTP_DIR }}
-        local-dir: "./out"  # Dossier généré après `next export`
+        local-dir: "./out/"
