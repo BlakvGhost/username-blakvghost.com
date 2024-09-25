@@ -32,7 +32,7 @@ jobs:
 
     # Export static HTML
     - name: Export HTML from Next.js
-      run: npm run export
+      run: npm run build
 
     # Build Sanity project
     - name: Build Sanity
