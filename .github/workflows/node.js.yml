@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -11,23 +11,42 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]  # Recommandé pour Next.js
 
     steps:
     - uses: actions/checkout@v2
+
+    # Setup Node.js
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
 
-    - name: FTP deployment
+    # Install dependencies
+    - name: Install dependencies
+      run: npm ci
+
+    # Build Next.js project
+    - name: Build Next.js
+      run: npm run build
+
+    # Export static HTML
+    - name: Export HTML from Next.js
+      run: npm run export
+
+    # Build Sanity project
+    - name: Build Sanity
+      run: |
+        cd sanity
+        npm install
+        npm run build
+
+    # FTP Deployment
+    - name: FTP Deployment
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: ${{ secrets.FTP_DIR }}
-        local-dir: "./build/"
+        local-dir: "./out"  # Dossier généré après `next export`

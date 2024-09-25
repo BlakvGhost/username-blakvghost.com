@@ -18,7 +18,7 @@ const options = {
   title: "Kabirou ALASSANE | Software Developer",
   description:
     "Kabirou ALASSANE is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
+  url: "https://username-blakvghost.com",
   ogImage:
     "https://lh3.googleusercontent.com/pw/AP1GczNzFIPF4cw7n_15CgUvPDE1Qz13r3-2s0Evdv1Q9CnRvik0GzYPziW4wlPnkdjD5UK16cNEMevncIoQgI1JhnZWen5mHV2bKTWAyje5QVzsK4HZ8Jgtb1jbqiqzHZ0ljCzxcvCHUrx-Ikp2vgw_OsE0WQ=w270-h599-s-no-gm",
 };
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "victoreke.com",
+    siteName: "username-blakvghost.com",
     locale: "en-US",
     type: "website",
     description: options.description,

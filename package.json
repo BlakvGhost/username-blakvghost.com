@@ -1,12 +1,12 @@
 {
-  "name": "victoreke.com",
+  "name": "username-blakvghost.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next lint && next build",
     "start": "next start"
-  },
+   },
   "dependencies": {
     "@giscus/react": "^2.3.0",
     "@sanity/code-input": "^4.1.1",
