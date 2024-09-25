@@ -23,22 +23,22 @@ jobs:
 
     # Install dependencies
     - name: Install dependencies
-      run: pnpm install
+      run: npm ci
 
     # Build Next.js project
     - name: Build Next.js
-      run: pnpm run build
+      run: npm run build
 
     # Export static HTML
     - name: Export HTML from Next.js
-      run: pnpm run build
+      run: npm run build
 
     # Build Sanity project
     - name: Build Sanity
       run: |
         cd sanity
-        pnpm install
-        pnpm run build
+        npm install
+        npm run build
 
     # FTP Deployment
     - name: FTP Deployment
