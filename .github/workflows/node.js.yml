@@ -40,12 +40,6 @@ jobs:
     - name: Export HTML from Next.js
       run: npm run build
 
-    - name: Build Sanity
-      run: |
-        cd sanity
-        npm install
-        npm run build
-
     - name: FTP Deployment
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
