@@ -37,7 +37,7 @@ export default async function Project() {
       <Slide delay={0.1}>
         {projects.length > 0 ? (
           <section className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12">
-            {projects.map((project) => (
+            {projects.reverse().map((project) => (
               <Link
                 href={`/projects/${project.slug}`}
                 key={project._id}
