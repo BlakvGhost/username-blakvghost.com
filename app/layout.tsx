@@ -20,7 +20,7 @@ const options = {
     "Kabirou ALASSANE is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
   url: "https://username-blakvghost.com",
   ogImage:
-    "https://lh3.googleusercontent.com/pw/AP1GczNzFIPF4cw7n_15CgUvPDE1Qz13r3-2s0Evdv1Q9CnRvik0GzYPziW4wlPnkdjD5UK16cNEMevncIoQgI1JhnZWen5mHV2bKTWAyje5QVzsK4HZ8Jgtb1jbqiqzHZ0ljCzxcvCHUrx-Ikp2vgw_OsE0WQ=w270-h599-s-no-gm",
+    "https://res.cloudinary.com/dgtzqvecw/image/upload/fl_preserve_transparency/v1727365323/bannier-test_wn6z9m.jpg",
 };
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: options.title,
     url: options.url,
     siteName: "username-blakvghost.com",
-    locale: "en-US",
+    locale: "fr-FR",
     type: "website",
     description: options.description,
     images: options.ogImage,
@@ -51,6 +51,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
+        />
+        <Script
+          id="google-analytics-config"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}');
+          `}
+        </Script>
+      </head>
       <body
         className={`${incognito.variable} ${inter.className} ${gitlabmono.variable} dark:bg-zinc-900 bg-white dark:text-white text-zinc-700`}
       >
