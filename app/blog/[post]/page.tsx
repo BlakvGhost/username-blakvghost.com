@@ -224,14 +224,14 @@ export default async function Post({ params }: Props) {
         className="max-w-3xl mt-10 lg:border-t dark:border-zinc-800 border-zinc-200 lg:py-10 pt-0"
       >
         <h3 className="lg:text-4xl text-3xl font-semibold tracking-tight mb-8">
-          Comments
+          Commentaires
         </h3>
         <Comments />
       </section>
 
       <section className="max-w-3xl lg:py-10 pt-0">
         <h3 className="lg:text-4xl text-3xl font-semibold tracking-tight mb-8">
-          Support
+          Soutien
         </h3>
         <Buymeacoffee />
       </section>
