@@ -52,7 +52,7 @@ export default async function Blog() {
 
         {posts.length > 0 ? (
           <section className="flex flex-col lg:max-w-[950px] max-w-full lg:gap-y-8 gap-y-12 mb-12">
-            {posts.reverse().map((post) => (
+            {posts.map((post) => (
               <Link
                 href={`/blog/${post.slug}`}
                 key={post._id}
