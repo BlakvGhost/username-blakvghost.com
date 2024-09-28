@@ -58,7 +58,7 @@ export const socialLinks = [
     name: "Youtube",
     url: "https://youtube.com/@HyperText23",
     icon: BiLogoYoutube,
-    status: "publication",
+    status: "youtube",
   },
   {
     id: 14,

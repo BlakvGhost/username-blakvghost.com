@@ -2,9 +2,10 @@ import { Slide } from "../animation/Slide";
 import Image from "next/image";
 import { Metadata } from "next";
 import PageHeading from "@/app/components/shared/PageHeading";
-
-const YOUTUBE_API_KEY = "TA_CLE_API_YOUTUBE";
-const CHANNEL_ID = "ID_DE_TA_CHAINE_YOUTUBE";
+import { youtubeApiKey, youtubeChannelId } from "@/lib/env.api";
+import { YoutubeWidget } from '../components/widgets/YoutubeWidget';
+import YoutubeIframe from "../components/shared/YoutubeIframe";
+import Social from "../components/shared/Social";
 
 export const metadata: Metadata = {
   title: "YouTube Vidéos | Kabirou ALASSANE",
@@ -24,7 +25,7 @@ export default async function Photos() {
   async function fetchVideos() {
     try {
       const response = await fetch(
-        `https://www.googleapis.com/youtube/v3/search?key=${YOUTUBE_API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&maxResults=10`
+        `https://www.googleapis.com/youtube/v3/search?key=${youtubeApiKey}&channelId=${youtubeChannelId}&part=snippet,id&order=date&maxResults=100`
       );
       const data = await response.json();
       const videoItems = data.items.map((item: any) => ({
@@ -40,34 +41,29 @@ export default async function Photos() {
     }
   }
 
-  const videos: { thumbnail: string, title: string, id: number }[] = await fetchVideos();
+  const videos: { thumbnail: string, title: string, id: string }[] = await fetchVideos();
 
   return (
     <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20">
-      <PageHeading
-        title="Vidéos YouTube"
-        description="Liste des vidéos YouTube que j'ai déjà publiées sur ma chaîne"
-      />
+      <header className="mb-10">
+        <Slide>
+          <h1 className="max-w-3xl font-incognito font-semibold tracking-tight sm:text-5xl text-3xl mb-6 lg:leading-[3.7rem]">
+            Vidéos YouTube
+          </h1>
+          <p className="max-w-2xl text-base dark:text-zinc-400 text-zinc-600 leading-relaxed">
+            Liste des vidéos YouTube que j&lsquo;ai déjà publiées sur ma chaine <Social type="youtube" />
+          </p>
+        </Slide>
+      </header>
       <figure className="my-6">
-        <Slide delay={0.12} className="flex flex-wrap gap-2">
+        <Slide delay={0.12} className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12">
           {videos?.length > 0 ? (
             videos?.map((video) => (
-              <a
+              <div
                 key={video.id}
-                href={`https://www.youtube.com/watch?v=${video.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col items-center"
               >
-                <Image
-                  src={video.thumbnail}
-                  alt={video.title}
-                  width={350}
-                  height={200}
-                  className="dark:bg-primary-bg bg-secondary-bg"
-                />
-                <p className="mt-2 text-center">{video.title}</p>
-              </a>
+                <YoutubeIframe videoId={video.id} />
+              </div>
             ))
           ) : (
             <p>Chargement des vidéos...</p>

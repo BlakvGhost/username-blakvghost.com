@@ -10,6 +10,18 @@ export const dataset: string = checkValue(
   "https://sanity.io"
 );
 
+export const youtubeApiKey: string = checkValue(
+  process.env.NEXT_PUBLIC_YOUTUBE_API_KEY,
+  "NEXT_PUBLIC_YOUTUBE_API_KEY",
+  "https://youtube.com"
+);
+
+export const youtubeChannelId: string = checkValue(
+  process.env.NEXT_PUBLIC_YOUTUBE_CHANNEL_ID,
+  "NEXT_PUBLIC_YOUTUBE_CHANNEL_ID",
+  "https://youtube.com"
+);
+
 export const token = checkValue(
   process.env.NEXT_PUBLIC_SANITY_ACCESS_TOKEN,
   "NEXT_PUBLIC_SANITY_ACCESS_TOKEN",
