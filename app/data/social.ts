@@ -30,7 +30,7 @@ export const socialLinks = [
     name: "Linkedin",
     url: "https://www.linkedin.com/in/kabirou-alassane-11293524a/",
     icon: BiLogoLinkedinSquare,
-    status: "social",
+    status: "publication",
   },
   {
     id: 4,
@@ -44,21 +44,21 @@ export const socialLinks = [
     name: "DevTo",
     url: "https://dev.to/blakvghost",
     icon: BiLogoDevTo,
-    status: "social",
+    status: "publication",
   },
   {
     id: 10,
     name: "Hashnode",
     url: "https://blakvghost.hashnode.dev",
     icon: FaHashnode,
-    status: "social",
+    status: "publication",
   },
   {
     id: 12,
     name: "Youtube",
     url: "https://youtube.com/@HyperText23",
     icon: BiLogoYoutube,
-    status: "social",
+    status: "publication",
   },
   {
     id: 14,
