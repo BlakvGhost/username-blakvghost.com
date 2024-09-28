@@ -19,7 +19,7 @@ export default function Comments() {
       repo="BlakvGhost/username-blakvghost.com"
       repoId={giscusRepoId}
       category="Announcements"
-      categoryId={giscusCategoryId}
+      categoryId="general"
       mapping="title"
       term="Welcome to @giscus/react component!"
       reactionsEnabled="1"
