@@ -57,7 +57,7 @@ export default async function Photos() {
         </Slide>
       </header>
       <figure className="my-6">
-        <Slide delay={0.12} className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12">
+        <Slide className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12">
           {videos?.length > 0 ? (
             videos?.map((video) => (
               <div
