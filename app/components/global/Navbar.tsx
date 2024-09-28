@@ -8,11 +8,11 @@ import MobileMenu from "./MobileMenu";
 export default function Navbar() {
   const data = [
     {
-      title: "About",
+      title: "À propos",
       href: "/about",
     },
     {
-      title: "Projects",
+      title: "Projets",
       href: "/projects",
     },
     {
@@ -20,7 +20,7 @@ export default function Navbar() {
       href: "/blog",
     },
     {
-      title: "Photos",
+      title: "Vidéos",
       href: "/photos",
     },
   ];

@@ -3,53 +3,75 @@ import Image from "next/image";
 import { Metadata } from "next";
 import PageHeading from "@/app/components/shared/PageHeading";
 
-const images = [
-  {
-    id: "1",
-    src: "https://images.unsplash.com/photo-1585618256754-241cfe4e8113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=100",
-  },
-  {
-    id: "2",
-    src: "https://images.unsplash.com/photo-1585619203238-70e7631cc672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  },
-  {
-    id: "3",
-    src: "https://images.unsplash.com/photo-1585619443911-c2bb23fb2a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-  },
-];
+const YOUTUBE_API_KEY = "TA_CLE_API_YOUTUBE";
+const CHANNEL_ID = "ID_DE_TA_CHAINE_YOUTUBE";
 
 export const metadata: Metadata = {
-  title: "Photos | Kabirou ALASSANE",
+  title: "YouTube Vidéos | Kabirou ALASSANE",
   metadataBase: new URL("https://username-blakvghost.com/photos"),
-  description: "Explore photos taken by Kabirou ALASSANE",
+  description: "Explore youtube videos published by Kabirou ALASSANE",
   openGraph: {
-    title: "Photos | Kabirou ALASSANE",
+    title: "YouTube Vidéos | Kabirou ALASSANE",
     url: "https://username-blakvghost.com/photos",
-    description: "Explore photos taken by Kabirou ALASSANE",
+    description: "Explore youtube videos published by Kabirou ALASSANE",
     images:
       "https://res.cloudinary.com/victoreke/image/upload/v1692635149/victoreke/photos.png",
   },
 };
 
-export default function Photos() {
+export default async function Photos() {
+
+  async function fetchVideos() {
+    try {
+      const response = await fetch(
+        `https://www.googleapis.com/youtube/v3/search?key=${YOUTUBE_API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&maxResults=10`
+      );
+      const data = await response.json();
+      const videoItems = data.items.map((item: any) => ({
+        id: item.id.videoId,
+        title: item.snippet.title,
+        thumbnail: item.snippet.thumbnails.high.url,
+      }));
+
+      return videoItems;
+
+    } catch (error) {
+      console.error("Erreur lors de la récupération des vidéos : ", error);
+    }
+  }
+
+  const videos: { thumbnail: string, title: string, id: number }[] = await fetchVideos();
+
   return (
     <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20">
       <PageHeading
-        title="Photos"
-        description="This page is still under construction..."
+        title="Vidéos YouTube"
+        description="Liste des vidéos YouTube que j'ai déjà publiées sur ma chaîne"
       />
       <figure className="my-6">
         <Slide delay={0.12} className="flex flex-wrap gap-2">
-          {images.map((image) => (
-            <Image
-              key={image.id}
-              src={image.src}
-              alt="playing guitar"
-              width={350}
-              height={800}
-              className="dark:bg-primary-bg bg-secondary-bg"
-            />
-          ))}
+          {videos?.length > 0 ? (
+            videos?.map((video) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center"
+              >
+                <Image
+                  src={video.thumbnail}
+                  alt={video.title}
+                  width={350}
+                  height={200}
+                  className="dark:bg-primary-bg bg-secondary-bg"
+                />
+                <p className="mt-2 text-center">{video.title}</p>
+              </a>
+            ))
+          ) : (
+            <p>Chargement des vidéos...</p>
+          )}
         </Slide>
       </figure>
     </main>
