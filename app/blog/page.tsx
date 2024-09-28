@@ -62,13 +62,12 @@ export default async function Blog() {
                   <span className="position box-content block overflow-hidden w[initial] h[initial] bg-none inset-0">
                     <Image
                     src={post.coverImage.image}
-                    width={300}
-                    height={250}
                     quality={100}
+                    fill={true}
                     placeholder={post.coverImage?.lqip ? `blur` : "empty"}
                     blurDataURL={post.coverImage?.lqip || ""}
                     alt={post.coverImage.alt || post.title}
-                    className="dark:bg-zinc-800 bg-zinc-100 rounded-md object-cover group-hover:scale-125 duration-300"
+                    className="dark:bg-zinc-800 bg-zinc-100 rounded-md object-cover group-hover:scale-125 duration-300 cover"
                   />
                   </span>                  
                 </div>

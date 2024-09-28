@@ -127,7 +127,7 @@ export default async function Post({ params }: Props) {
                 className="flex items-center gap-x-2 dark:text-primary-color text-tertiary-color"
               >
                 <HiChat />
-                <div className="#comments">Comments</div>
+                <div className="#comments">Commentaires</div>
               </Link>
               <div className="flex items-center gap-x-2">
                 <BiSolidTime />
@@ -157,7 +157,7 @@ export default async function Post({ params }: Props) {
           <aside className="flex flex-col lg:max-h-full h-max gap-y-8 sticky top-2 bottom-auto right-0 py-10 lg:px-6 px-0">
             <section className="border-b dark:border-zinc-800 border-zinc-200 pb-10">
               <p className="dark:text-zinc-400 text-zinc-500 text-sm">
-                Written By
+                Écrit par
               </p>
               <address className="flex items-center gap-x-3 mt-4 not-italic">
                 <div className="relative w-12 h-12">
@@ -189,7 +189,7 @@ export default async function Post({ params }: Props) {
 
             <section className="border-b dark:border-zinc-800 border-zinc-200 pb-10">
               <h3 className="text-xl font-semibold tracking-tight mb-4">
-                Tags
+                Mots clés
               </h3>
               <ul className="flex flex-wrap items-center gap-2 tracking-tight">
                 {post.tags.map((tag, id) => (
@@ -211,7 +211,7 @@ export default async function Post({ params }: Props) {
 
             <section className="border-b dark:border-zinc-800 border-zinc-200 pb-10">
               <h3 className="text-xl font-semibold tracking-tight mb-4">
-                Featured
+                En vedette
               </h3>
               <FeaturedPosts params={params.post} />
             </section>
