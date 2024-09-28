@@ -51,8 +51,9 @@ export default async function Photos() {
             Vidéos YouTube
           </h1>
           <p className="max-w-2xl text-base dark:text-zinc-400 text-zinc-600 leading-relaxed">
-            Liste des vidéos YouTube que j&lsquo;ai déjà publiées sur ma chaine <Social type="youtube" />
+            Liste des vidéos YouTube que j&lsquo;ai déjà publiées sur ma chaine
           </p>
+          <Social type="youtube" />
         </Slide>
       </header>
       <figure className="my-6">
