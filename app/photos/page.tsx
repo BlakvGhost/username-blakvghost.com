@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://username-blakvghost.com/photos",
     description: "Explore youtube videos published by Kabirou ALASSANE",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692635149/victoreke/photos.png",
+      "https://res.cloudinary.com/dgtzqvecw/image/upload/fl_preserve_transparency/v1727365323/bannier-test_wn6z9m.jpg",
   },
 };
 
@@ -37,7 +37,7 @@ export default async function Photos() {
       return videoItems;
 
     } catch (error) {
-      console.error("Erreur lors de la récupération des vidéos : ", error);
+      // console.error("Erreur lors de la récupération des vidéos : ", error);
     }
   }
 
