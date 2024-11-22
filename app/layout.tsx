@@ -17,7 +17,7 @@ const inter = Inter({
 const options = {
   title: "Kabirou ALASSANE | Développeur d'applications web et mobile & créateur de contenus",
   description:
-    "Moi, c’est Kabirou ALASSANE, développeur d'applications web & mobile avec une touche de magie en machine learning. Entre deux lignes de code, je partage ma passion tech sur YouTube pour éclairer les esprits curieux. Toujours prêt à apprendre, innover et transformer des idées en solutions percutantes. 🚀💻",
+    "Moi, c'est Kabirou ALASSANE, développeur d'applications web & mobile avec une touche de magie en machine learning. Entre deux lignes de code, je partage ma passion tech sur YouTube pour éclairer les esprits curieux. Toujours prêt à apprendre, innover et transformer des idées en solutions percutantes. 🚀💻",
   url: "https://username-blakvghost.com",
   ogImage:
     "https://res.cloudinary.com/dgtzqvecw/image/upload/fl_preserve_transparency/v1727365323/bannier-test_wn6z9m.jpg",
